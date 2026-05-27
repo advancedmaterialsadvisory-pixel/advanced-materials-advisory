@@ -5,7 +5,7 @@ const profile = {
   title: "Automotive, EV Battery, ADAS & Advanced Materials Commercial Expert",
   email: "advanced.materials.advisory@gmail.com",
   linkedIn: "https://www.linkedin.com/in/darek-swidron/",
-  calendly: "https://calendly.com/darek-evinsights/intro-call",
+  calendly: "https://calendly.com/advanced-materials-advisory/30min",
 };
 
 const services = [
