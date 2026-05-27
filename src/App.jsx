@@ -215,7 +215,11 @@ export default function EVBatteryExpertWebsite() {
             <a href="#process" className="hover:text-slate-950">Process</a>
             <a href="#contact" className="hover:text-slate-950">Contact</a>
           </nav>
-          <a href={`mailto:${profile.email}`} className="flex-none rounded-2xl bg-sky-700 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-800">Contact</a>
+          <div className="flex flex-none flex-col gap-2">
+  <a href={`mailto:${profile.email}`} className="rounded-2xl bg-sky-700 px-4 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-sky-800">Contact</a>
+  <a href={profile.calendly} className="rounded-2xl bg-white px-4 py-2 text-center text-sm font-semibold text-slate-950 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50">Book call</a>
+  <a href={profile.linkedIn} className="rounded-2xl bg-white px-4 py-2 text-center text-sm font-semibold text-slate-950 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50">LinkedIn</a>
+</div>
         </div>
       </header>
 
